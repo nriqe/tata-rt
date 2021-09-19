@@ -1,2 +1,2 @@
-# tts-rt
+# tata-rt
 Reto técnico de Tata 
