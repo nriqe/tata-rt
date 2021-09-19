@@ -1,0 +1,63 @@
+@import "variables";
+
+a{
+    text-decoration: none;
+}
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+/* Firefox */
+input[type=number] {
+    -moz-appearance: textfield;
+}
+ul{ 
+    list-style:none; 
+} 
+li{ 
+    padding-left: 10px; 
+    /*background-image: url(/img/gl_shield-20x20.png) no-repeat;*/
+}
+.p-left-80{
+    padding: 80px 0 80px 80px;    
+} 
+.p-right-40{
+    padding: 80px 40px 80px 0;
+} 
+.p-right-80{
+    padding: 80px 80px 80px 0;
+} 
+.form-check-input:checked {
+    background-color: $greenColor;
+    border-color: $greenColor;
+}
+.bg-gray{
+    background-color: $grayColor;
+}
+.border-gray{
+    border-color: $grayColor;
+}
+.bg-green{
+    background-color: $greenColor;
+}
+.text-silver{
+    color: $silverColor;
+}
+.accordion-item:first-of-type {
+    border-top-left-radius: 0; 
+    border-top-right-radius: 0; 
+}
+.accordion-item {
+    background-color: #fff;
+    border: 0;
+    border-bottom: 1px solid $grayColor;
+    border-top: 1px solid $grayColor;
+}
+.text-purple{
+    color: purple;
+}
+a.text-purple:hover{
+    color: purple;
+}
