@@ -12,8 +12,6 @@ import AccordionServiceItem from './AccordionServiceItem';
 
 const ChooseProtectionForm = props => {
 
-    console.log('ChooseProtectionForm');
-    
     const idAccordion = 'accordionServices';
     const { register, handleSubmit, formState: { errors } } = useForm();
     const [ maxCoverage, setMaxCoverage ] = useState('1MM');

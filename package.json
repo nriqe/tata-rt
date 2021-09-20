@@ -26,7 +26,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "CI='' npm run build",
-    "deploy": "gh-pages -d build -r https://$GH_TOKEN@github.com/nriqe/tata-rt"
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [

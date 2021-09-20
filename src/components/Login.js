@@ -41,7 +41,7 @@ const Login = () => {
                 <LoginForm onSubmit={onSubmit} /> 
             </Fragment>
         :  
-            !isValidUser ? <p className="text-center">Enviando...</p> : <Redirect to="/registro" />
+            !isValidUser ? <p className="text-center">Enviando...</p> : <Redirect to="/tata-rt/registro" />
     )
 }
 

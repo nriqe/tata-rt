@@ -3,7 +3,6 @@ import UserContext from './UserContext';
 
 const UserProvider = ({ children }) => {
 
-    console.log('UserProvider');
     const [userData, setUserData] = useState([]);
     const [insureds, setInsureds] = useState([]);
 

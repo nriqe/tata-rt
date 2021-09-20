@@ -11,7 +11,6 @@ import Step from './Step';
 
 const RegisterForm = props => {
     
-    console.log('RegisterForm');
     const adultMinAge = 18;
     const dateFormat = 'YYYY-MM-DD';
     const limitDate = moment(new Date()).subtract(adultMinAge, "years").format(dateFormat);
@@ -278,7 +277,7 @@ const RegisterForm = props => {
                         : ''
                     }
                     <div className="mt-5 d-flex justify-content-end">
-                        <Link to="/elige-tu-proteccion" className="btn btn-primary btn-lg text-white-50 fs-6">{`CONTINUAR >`}</Link>
+                        <Link to="/tata-rt/elige-tu-proteccion" className="btn btn-primary btn-lg text-white-50 fs-6">{`CONTINUAR >`}</Link>
                     </div>
                 </form> 
             </section>

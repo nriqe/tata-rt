@@ -20,7 +20,7 @@ const PlanBenefits = props => {
                     </div>
                     <div className="col-4 border-start border-gray">
                         <div className="h-100 d-flex justify-content-end align-items-center px-3">
-                            <img className="w-75" src="/img/Illustration.png" alt="Plan"/>
+                            <img className="w-75" src="/tata-rt/img/Illustration.png" alt="Plan"/>
                         </div>
                     </div>
                 </div>                

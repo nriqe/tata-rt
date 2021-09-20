@@ -9,7 +9,7 @@ const InfoInsurance = props => {
         <section className={width}>
             <section className="">
                 <article className="position-relative text-left">
-                    <img className="w-75" src="/img/Base.png" alt="Base" />
+                    <img className="w-75" src="/tata-rt/img/Base.png" alt="Base" />
                    </article>
                 { showInfo && 
                     <article className="position-absolute top-0 m-5 p-left-80 text-white">

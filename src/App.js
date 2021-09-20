@@ -20,13 +20,13 @@ const App = () => {
                 <UserProvider>
                     <Router>
                         <Switch>
-                            <Route exact path="/">
+                            <Route exact path="/tata-rt/">
                                 <Login />
                             </Route>   
-                            <Route exact path="/registro">
+                            <Route exact path="/tata-rt/registro">
                                 <Register />
                             </Route>    
-                            <Route exact path="/elige-tu-proteccion">
+                            <Route exact path="/tata-rt/elige-tu-proteccion">
                                 <ChooseProtection />
                             </Route> 
                         </Switch>                                         
